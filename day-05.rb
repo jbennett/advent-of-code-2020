@@ -11,10 +11,11 @@ ids = tickets.map do |ticket|
     col_range[1] -= (col_range[1] - col_range[0] + 1) / 2 if letter == "L"
     col_range[0] += (col_range[1] - col_range[0] + 1) / 2 if letter == "R"
   end
-  
-  puts "#{row_range[1]}:#{col_range[0]} -> #{row_range[0] * 8 + col_range[0]}"
 
   row_range[0] * 8 + col_range[0]
 end
 
-puts ids.max
+ids.sort.inject { |a, b|
+   puts "gap between #{a}, #{b}" if a + 1 != b
+   b
+}
