@@ -201,7 +201,7 @@ values = [
 	1535,
 ]
 
-match = values.product(values).find { |a, b| a + b == 2020 }
+match = values.product(values, values).find { |a, b, c| a + b + c == 2020 }
 
 puts match.inspect
-puts match[0]*match[1]
+puts match[0] * match[1] * match[2]
