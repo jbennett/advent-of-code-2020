@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nruby code.rb\n"
+    }
+  },
+  "identifier" : "BF62A054-2007-4B2F-A211-9D2264C85A32",
+  "openLogOnRun" : "start"
+}
