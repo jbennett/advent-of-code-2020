@@ -2,7 +2,7 @@
   "actions" : {
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nruby day-09b.rb\n"
+      "script" : "#!\/bin\/sh\nruby day-10a.rb\n"
     }
   },
   "identifier" : "BF62A054-2007-4B2F-A211-9D2264C85A32",
